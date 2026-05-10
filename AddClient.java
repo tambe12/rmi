@@ -6,7 +6,7 @@ import java.rmi.*;
 public class AddClient {
 	public static void main(String[] args) {
 	try {
-		AddServerIntf addObAddServerIntf = (AddServerIntf)Naming.lookup("rmi://localhost/AddServer");
+		AddServerIntf addObAddServerIntf = (AddServerIntf)Naming.lookup("rmi://127.0.0.1/AddServer");
 		
 		double num1 = 10;
 		double num2 = 20;
